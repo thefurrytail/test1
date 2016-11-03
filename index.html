@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<head>
+  <title>The Furry Tail</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Pet Sitting Hampton Roads">
+  <meta name="keywords" content="Dog, Sitting, Chesapeake, hampton roads, dog, care, pet, care">
+  <meta name="author" content="Cristina Bautista">
+  <link href="https://fonts.googleapis.com/css?family=Tangerine:700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="cardFlip.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="main_script.js"></script>
+</head>
+
+
+<body>
+  <header>
+    <img src="http://res.cloudinary.com/milesaylward/image/upload/v1476843898/The_Furry_Tail_LOGO_wuh0ol.png" alt="The Furry Tail logo" class="img-responsive center-block furrytail_logo">
+  </header>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li role="presentation" class="active nav-item">
+            <a href="index.html">Home</a>
+          </li>
+          <li role="presentation" class="nav-item">
+            <a href="about.html">About</a>
+          </li>
+          <li role="presentation" class="nav-item">
+            <a href="gallery.html">Gallery</a>
+          </li>
+          <li role="presentation" class="nav-item">
+            <a href="services.html">Services</a>
+          </li>
+          <li role="presentation">
+            <a href="contact.html" class="last_nav">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+<div class="container css_flip">
+  <div class="row">
+    <div class="col-xs-12">
+      <h1 class="puppy_header text-center">Click through our Puppy Polaroids</h1>
+    </div>
+  </div>
+  <div class="row polaroid_pictures">
+    <div class="col-md-2 col-sm-3 col-xs-3 card_one_col">
+      <div class="card_one" onclick="flip_one();">
+        <div class="front front_one">
+          <img src="images/polaroid_back.jpg" class="img-responsive">
+        </div>
+        <div class="back back_one">
+          <img src="images/polaroid_puppy.png" class="img-responsive puppy">
+        </div>
+      </div>
+    </div>
+    <div class="col-md-2 col-md-offset-1 col-sm-3 col-xs-3">
+      <div class="card_two" onclick="flip_two()">
+        <div class="front front_two">
+          <img src="images/polaroid_back.jpg" class="img-responsive">
+        </div>
+        <div class="back">
+          <img src="images/polaroid_puppy.png" class="img-responsive picture_two">
+        </div>
+      </div>
+    </div>
+    <div class="col-md-2 col-md-offset-1 col-sm-3 col-xs-3">
+      <div class="card_three" onclick="flip_three()">
+        <div class="front front_three">
+          <img src="images/polaroid_back.jpg" class="img-responsive">
+        </div>
+        <div class="back">
+          <img src="images/polaroid_puppy.png" class="img-responsive picture_three">
+        </div>
+      </div>
+    </div>
+    <div class="col-md-2 col-md-offset-1 col-sm-3 col-xs-3">
+      <div class="card_four" onclick="flip_four()">
+        <div class="front front_four">
+          <img src="images/polaroid_back.jpg" class="img-responsive">
+        </div>
+        <div class="back">
+          <img src="images/polaroid_puppy.png" class="img-responsive picture_four">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 css_spacer"></div>
+  </div>
+</div>
+
+<div class="container home">
+  <div class="row">
+    <div class="col-xs-12">
+      <h1 class="text-center home home_text">The Furry Tail</h3>
+    </div>
+    <div class="col-xs-12">
+      <h4 class="text-center home home_text pet">Pet Concierge Service</h6>
+    </div>
+    <div class="col-md-8 col-md-offset-2">
+      <p class="text-center home">THE FURRY TAIL Pet Services offers personalized pet care in the comfort and convenience of your own home or at our home daycare on special cases. If you’re anything like us, you have an incredible connection with your dogs and cats. When you’re out of town, you want to make sure they’re with someone who will love them just as much as you do. <br><br>Be at peace knowing that while you’re away, your pet is receiving the best in care, love, attention, and affection. The goal is that while you’re away, your pet will feel at home, happy and comfortable. We are dedicated to bonding with pets and building positive relationships with clients. If you’re looking for professional, reliable and personalized pet care, you’ve found the right place!</p>
+    </div>
+  </div>
+</div>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 text-center">
+          <h4 class="rights"><span class="footer-logo">The Furry Tail </span><i class="fa fa-copyright fa-fw"></i><Script>
+            document.write(new Date().getFullYear())
+          </Script> All Rights Reserved</h4>
+        </div>
+        <div class="container">
+          <div class="col-xs-12">
+            <ul class="social-icons text-center">
+              <span class="first_social"><li class="social"><i class="fa fa-twitter-square fa-fw"></i></li></span>
+              <li class="social"><i class="fa fa-instagram fa-fw"></i></li>
+              <li class="social"><i class="fa fa-facebook-square fa-fw"></i></li>
+              <li class="social"><i class="fa fa-snapchat fa-fw"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>

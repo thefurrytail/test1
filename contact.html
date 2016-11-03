@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<head>
+  <title>The Furry Tail</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Pet Sitting Hampton Roads">
+  <meta name="keywords" content="Dog, Sitting, Chesapeake, hampton roads, dog, care, pet, care">
+  <meta name="author" content="Cristina Bautista">
+  <link href="https://fonts.googleapis.com/css?family=Tangerine:700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="main_script.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+
+<body>
+  <header>
+    <img src="http://res.cloudinary.com/milesaylward/image/upload/v1476843898/The_Furry_Tail_LOGO_wuh0ol.png" alt="The Furry Tail logo" class="img-responsive center-block furrytail_logo">
+  </header>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li role="presentation" class="nav-item">
+            <a href="index.html">Home</a>
+          </li>
+          <li role="presentation" class="nav-item">
+            <a href="about.html">About</a>
+          </li>
+          <li role="presentation" class="nav-item">
+            <a href="gallery.html">Gallery</a>
+          </li>
+          <li role="presentation" class="nav-item">
+            <a href="services.html">Services</a>
+          </li>
+          <li role="presentation" class="active">
+            <a href="contact.html" class="last_nav">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row">
+    <div class="col-xs-12 text-center">
+    <h1 class="text-center contact_header">Contact</h1>
+    <hr class="break" WIDTH="50%">
+    </div>
+    </div>
+      <div class="row">
+      <div class="col-md-6 col-xs-12">
+        <form name="contactform" method="post" action="send_form_email.php">
+          <table width="450px">
+            <tr>
+              <td valign="top">
+                <label for="first_name">First Name *</label>
+              </td>
+              <td valign="top">
+               <input  type="text" name="first_name" maxlength="50" size="30">
+              </td>
+            </tr>
+            <tr>
+              <td valign="top"">
+              <label for="last_name">Last Name *</label>
+              </td>
+              <td valign="top">
+                <input  type="text" name="last_name" maxlength="50" size="30">
+              </td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <label for="email">Email Address *</label>
+              </td>
+              <td valign="top">
+                <input  type="text" name="email" maxlength="80" size="30">
+              </td>
+            </tr>
+            <tr>
+              <td valign="top">
+               <label for="telephone">Telephone Number</label>
+              </td>
+              <td valign="top">
+                <input  type="text" name="telephone" maxlength="30" size="30">
+              </td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <label for="comments">Message</label>
+              </td>
+              <td valign="top">
+               <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" style="text-align:center">
+                <input type="submit" value="Submit">
+              </td>
+            </tr>
+          </table>
+        </form>
+        </div>
+      <div class="col-md-5 col-xs-12">
+        <h4 class="contact">Do you have an questions about our services, or if you'd simply like to contact me before you decide that The Furry Tail is the right service for you and your furry family, feel free to message me here and I will be in contact as soon as possible. But if you know that The Furry Tail is the best for you; download and fill out our customer form below and let me know when I can be expecting to spend quality time with your furry friend!</h4>
+        <a href="customer_form.pdf" download="The Furry Tail Customer Form"><button class="form_button">Download Our Customer Form</button></a>
+        </div>
+      </div>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 text-center">
+          <h4 class="rights"><span class="footer-logo">The Furry Tail </span><i class="fa fa-copyright fa-fw"></i><Script>
+            document.write(new Date().getFullYear())
+          </Script> All Rights Reserved</h4>
+        </div>
+        <div class="container">
+          <div class="col-xs-12">
+            <ul class="social-icons text-center">
+              <span class="first_social"><li class="social"><i class="fa fa-twitter-square fa-fw"></i></li></span>
+              <li class="social"><i class="fa fa-instagram fa-fw"></i></li>
+              <li class="social"><i class="fa fa-facebook-square fa-fw"></i></li>
+              <li class="social"><i class="fa fa-snapchat fa-fw"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
